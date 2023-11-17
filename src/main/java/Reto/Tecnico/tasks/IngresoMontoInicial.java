@@ -5,11 +5,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
-import net.serenitybdd.screenplay.waits.WaitUntil;
-
 import java.util.List;
-
 import static Reto.Tecnico.userinterface.IngresoPage.BTN_CONTINUAR;
 import static Reto.Tecnico.userinterface.IngresoPage.TXT_MONTO_A_PAGAR;
 import static net.serenitybdd.screenplay.Tasks.instrumented;

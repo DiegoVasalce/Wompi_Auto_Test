@@ -2,7 +2,6 @@ package Reto.Tecnico.stepdefinitions;
 
 import Reto.Tecnico.models.Data_Test;
 import Reto.Tecnico.questions.ValidacionNEQUI;
-import Reto.Tecnico.questions.ValidacionPSE;
 import Reto.Tecnico.tasks.*;
 import Reto.Tecnico.utils.Constantes;
 import cucumber.api.java.Before;
@@ -13,9 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-
 import java.util.List;
-
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;

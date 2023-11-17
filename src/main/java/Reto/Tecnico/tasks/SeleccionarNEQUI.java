@@ -3,9 +3,7 @@ package Reto.Tecnico.tasks;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
-
 import static Reto.Tecnico.userinterface.MediosPage.BTN_NEQUI;
-import static Reto.Tecnico.userinterface.MediosPage.BTN_TRANSFER;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class SeleccionarNEQUI implements Task {

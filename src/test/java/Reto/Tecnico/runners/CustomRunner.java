@@ -1,6 +1,5 @@
 package Reto.Tecnico.runners;
 
-
 import Reto.Tecnico.utils.ExcelData.BeforeSuite;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.Description;

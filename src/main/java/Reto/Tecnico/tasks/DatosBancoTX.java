@@ -4,10 +4,7 @@ import Reto.Tecnico.models.Data_Test;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
-
-
 import java.util.List;
-
 import static Reto.Tecnico.userinterface.DatosBancoPage.*;
 import static Reto.Tecnico.userinterface.IngresoPage.BTN_CONTINUAR;
 import static Reto.Tecnico.utils.Constantes.*;

@@ -2,16 +2,12 @@ package Reto.Tecnico.questions;
 
 import Reto.Tecnico.interactions.TakeScreenshot;
 import Reto.Tecnico.models.Data_Test;
-import net.bytebuddy.implementation.bind.annotation.This;
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Question;
-import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
 import net.serenitybdd.screenplay.questions.Text;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-import org.openqa.selenium.TakesScreenshot;
-import org.slf4j.LoggerFactory;
+
 
 import static Reto.Tecnico.userinterface.ValidacionPage.*;
 

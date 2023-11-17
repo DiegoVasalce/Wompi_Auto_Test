@@ -1,7 +1,5 @@
 package Reto.Tecnico.utils.ExcelData;
 
-
-
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
