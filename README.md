@@ -61,7 +61,7 @@ gradle clean test -Dcucumber.filter.tags="@EscenarioNequi" o "@EscenarioPSE" o "
 
 **NOTA:** En caso tal de que no hayas instalado y configurado Gradle en tu maquina, debes ejecutar las lineas anteriores con el comando `gradlew` en lugar de `gradle`.
 
-### Construido con 🛠️
+## Construido con 🛠️
 
 * [Git](https://git-scm.com/downloads) - El manejador de versiones
 * [IntelliJ](https://www.jetbrains.com/es-es/idea/download/#section=windows) - El IDe De preferencia
@@ -73,6 +73,9 @@ gradle clean test -Dcucumber.filter.tags="@EscenarioNequi" o "@EscenarioPSE" o "
 * [Gherkin](https://cucumber.io/docs/gherkin/) - El lenguaje que en el que estan escritas las pruebas
 * [Junit](https://junit.org/junit4/) - Herramienta que permite ejcución de clases en java
 
-### Ubicación reporte de pruebas generado 📋
+## Ubicación reporte de pruebas generado 📋
 Se genera en:  `target/site/serenity/index.html`
+
+
+
  
