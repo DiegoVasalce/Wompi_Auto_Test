@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Front</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="75cd99faa454ad317a346959f281cac025b53b9ede1d4a50baa3097f23a4c7de.html">Yo Como Usuario Pagador</a></span>
+                > <span class="truncate-60"><a
+                    href="92a269db75a8e0c6fc75ee84d251794180616e859bbe107dd45ebfe48e01abe6.html">Se valida pago aprobado por medio del boton Transferencia </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-11-2023 14:05</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Yo Como Usuario Pagador </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Quiero realizar una transaccion a un comercio en modo sandbox por medio de pago<br />
+Donde pueda ver la transaccion realizada y se pueda validar sus estados
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="2d3fb9b32f276758a2d91a86b09f0b4c397f9415d44a4dd57c353d2f15a51914.html">Escenario Transfer
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Se valida pago aprobado por medio del boton Transferencia
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given que el usuario ingresa a la pagina Wompi registrando valor inicial tx<br><table class='embedded'><tbody><tr><td>valormonto</td></tr><tr><td>&lt;valormonto&gt;</td></tr></tbody></table><br>When el usuario Selecciona metodo de pago e ingresa datos transferencia<br><table class='embedded'><thead><th>correo</th><th>nombresyapellidos</th><th>cel</th><th>tipopersona</th><th>tipotx</th></thead><tbody><tr><td>&lt;correo&gt;</td><td>&lt;nombresyapellidos&gt;</td><td>&lt;cel&gt;</td><td>&lt;tipopersona&gt;</td><td>&lt;tipotx&gt;</td></tr></tbody></table><br>Then el usuario vera el siguiente mensaje tx<br><table class='embedded'><tbody><tr><td>validacion</td></tr><tr><td>&lt;validacion&gt;</td></tr></tbody></table></div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="952b90f1bff72e58a28f07c5b7d7cfdd77bbf76137ff54e73d7bf3d31ff57c52.png" title=" Example: {valormonto=100000, correo=jdvs@mailsac.com, nombresyapellidos=Diego Vasalce, cel=3154789654, tipopersona=Persona natural, tipotx=Transacci&oacute;n APROBADA, validacion=aprobada (Transferencia Bancolombia)}" width="1366"/>
+                <img src="952b90f1bff72e58a28f07c5b7d7cfdd77bbf76137ff54e73d7bf3d31ff57c52.png" title=" Then el usuario vera el siguiente mensaje tx
+| validacion |
+| aprobada (Transferencia Bancolombia) |" width="1366"/>
+                <img src="952b90f1bff72e58a28f07c5b7d7cfdd77bbf76137ff54e73d7bf3d31ff57c52.png" title=" Then validacion pse" width="1366"/>
+                <img src="952b90f1bff72e58a28f07c5b7d7cfdd77bbf76137ff54e73d7bf3d31ff57c52.png" title=" Diego take screenshot" width="1366"/>
+                <img src="6698b1e356c2df9ddf9f4a4a32ff7ba81890fabb1abf55dc69c11ba83a153b6c.png" title=" Example: {valormonto=100000, correo=jdvs@mailsac.com, nombresyapellidos=Diego Vasalce, cel=3154789654, tipopersona=Persona natural, tipotx=Transacci&oacute;n DECLINADA, validacion=declinada (Transferencia Bancolombia)}" width="1366"/>
+                <img src="6698b1e356c2df9ddf9f4a4a32ff7ba81890fabb1abf55dc69c11ba83a153b6c.png" title=" Then el usuario vera el siguiente mensaje tx
+| validacion |
+| declinada (Transferencia Bancolombia) |" width="1366"/>
+                <img src="6698b1e356c2df9ddf9f4a4a32ff7ba81890fabb1abf55dc69c11ba83a153b6c.png" title=" Then validacion pse" width="1366"/>
+                <img src="6698b1e356c2df9ddf9f4a4a32ff7ba81890fabb1abf55dc69c11ba83a153b6c.png" title=" Diego take screenshot" width="1366"/>
+                <img src="6fedb46fb0cb4dfe7cc5403ddac5487fc0281275d559b3e293d03606fbca4e7f.png" title=" Example: {valormonto=100000, correo=jdvs@mailsac.com, nombresyapellidos=Diego Vasalce, cel=3154789654, tipopersona=Persona natural, tipotx=Transacci&oacute;n ERROR, validacion=Transacci&oacute;n con ERROR}" width="1366"/>
+                <img src="6fedb46fb0cb4dfe7cc5403ddac5487fc0281275d559b3e293d03606fbca4e7f.png" title=" Then el usuario vera el siguiente mensaje tx
+| validacion |
+| Transacci&oacute;n con ERROR |" width="1366"/>
+                <img src="6fedb46fb0cb4dfe7cc5403ddac5487fc0281275d559b3e293d03606fbca4e7f.png" title=" Then validacion pse" width="1366"/>
+                <img src="6fedb46fb0cb4dfe7cc5403ddac5487fc0281275d559b3e293d03606fbca4e7f.png" title=" Diego take screenshot: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.89</span>
+</div>
+</body>
+</html>
