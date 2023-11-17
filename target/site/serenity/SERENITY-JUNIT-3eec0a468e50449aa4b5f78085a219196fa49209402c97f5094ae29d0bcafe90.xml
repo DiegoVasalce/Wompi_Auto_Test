@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Yo como usuario pagador" skipped="0" tests="6" time="118.14" timestamp="2023-11-17 11:59:34"><testcase name="Se valida pago aprobado por medio del boton PSE"/><testcase name="Se valida pago aprobado por medio del boton Transferencia"/></testsuite>

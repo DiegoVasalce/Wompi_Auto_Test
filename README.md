@@ -17,12 +17,13 @@ Necesitas tener previamente instalado en tu maquina:
 
 Para obtener una copia del programa, basta con abrir una consola CMD o Power Shell para Windows, o para Linux y Mac OS utilizar la consola de comandos en una carpeta o en el lugar en el cual desea guardar el proyecto y a continuacion ejecutar el siguente comando git:
 
-git clone 
+git clone https://github.com/DiegoVasalce/Wompi_Auto_Test.git
 
 ### Configuración 🔧
 
 * El proyecto viene configurado para descargar el driver del navegador de tu preferencia y correr la automatización de esta forma.
 
+* El proyecto puede Cambiar su configuracion de Datos en el archivo Wompi.xlsx
 
 * En **IntelliJ** se deben instalar los plugins para que pueda leer y ejecutar las pruebas; Vamos al apartado de plugins de IntelliJ y buscamos e instalamos desde el marketplace de intelliJ los siguientes plugins:
 
@@ -60,7 +61,7 @@ gradle clean test -Dcucumber.filter.tags="@EscenarioNequi" o "@EscenarioPSE" o "
 
 **NOTA:** En caso tal de que no hayas instalado y configurado Gradle en tu maquina, debes ejecutar las lineas anteriores con el comando `gradlew` en lugar de `gradle`.
 
-## Construido con 🛠️
+### Construido con 🛠️
 
 * [Git](https://git-scm.com/downloads) - El manejador de versiones
 * [IntelliJ](https://www.jetbrains.com/es-es/idea/download/#section=windows) - El IDe De preferencia
@@ -72,6 +73,6 @@ gradle clean test -Dcucumber.filter.tags="@EscenarioNequi" o "@EscenarioPSE" o "
 * [Gherkin](https://cucumber.io/docs/gherkin/) - El lenguaje que en el que estan escritas las pruebas
 * [Junit](https://junit.org/junit4/) - Herramienta que permite ejcución de clases en java
 
-## Ubicación reporte de pruebas generado 📋
+### Ubicación reporte de pruebas generado 📋
 Se genera en:  `target/site/serenity/index.html`
  
